@@ -1,24 +1,29 @@
+# Node/Express skeleton
+
 # Git-Genius-Client
 Client Side component of Git Genius.
 
 #Technologies
--Sinatra framwork
+-Node.js
+-Express.js
 -React.js
 -Jquery
 
+#Dependencies
 
-##System dependencies
+ - NodeJS: [http://nodejs.org/](http://nodejs.org/)
+ - ExpressJS: [http://expressjs.com/starter/installing.html](http://expressjs.com/starter/installing.html)
+ - Optional: MongoLab
+ - Mongoose: [http://mongoosejs.com/docs/index.html](http://mongoosejs.com/docs/index.html)
 
-##Configuration
 
-##Database creation
+ ###Initial Installation
+ ```
+ $ npm install
+ ```
 
-##Database initialization
-
-##How to run the test suite
-
-##Services (job queues, cache servers, search engines, etc.)
-
-##Deployment instructions
-
-##...
+ ###Usage
+ run the server:
+ ```
+ $ npm start
+ ```
